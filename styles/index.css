@@ -91,62 +91,8 @@
 .seguinos:hover {
   opacity: 0.7;
 }
-/*nosotros*/
-.contenedor {
-  display: grid;
-  width: 100%;
-  height: 82vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "caja1 caja2 caja3"
-    "caja4 caja5 caja6";
-}
-.caja1 {
-  grid-area: caja1;
-  background-image: url("../imagenes/gymfamilia.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.caja2 {
-  grid-area: caja2;
-  background-image: url("../imagenes/perstreiner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.caja3 {
-  grid-area: caja3;
-  background-image: url("../imagenes/gymfemenino.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.caja4 {
-  grid-area: caja4;
-  text-align: center;
-  padding: 20px;
-  font-size: 20px;
-  font-style: italic;
-}
-.caja5 {
-  grid-area: caja5;
-  text-align: center;
-  padding: 20px;
-  font-size: 20px;
-  font-style: italic;
-}
-.caja6 {
-  grid-area: caja6;
-  text-align: center;
-  padding: 20px;
-  font-size: 20px;
-  font-style: italic;
-}
-.contenedor > div {
-  display: grid;
-  place-items: center;
-  background-color: black;
-  color: orangered;
-}
+/*nosotros boostrap*/
+
 /*imagenes*/
 .fotos {
   display: grid;

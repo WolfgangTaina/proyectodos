@@ -5,53 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GymTiempolibre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
-    <header class="cabesa">
-      <nav class="logotext">
-        <img height="120px" src="./../imagenes/logogym.jpg" alt="logo" />
-        <h1 class="h1"><a href="./../index.html"> Gym Tiempo libre</a></h1>
-      </nav>
-
-      <nav class="barra">
-        <ul class="items">
-          <li class="items__menu"><a href="./../index.html">Inicio</a></li>
-          <li class="items__menu active">
-            <a href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="items__menu"><a href="imagenes.html">Imagenes</a></li>
-          <li class="items__menu"><a href="ubicacion.html">Ubicación</a></li>
-          <li class="items__menu"><a href="contacto.html">Contacto</a></li>
-        </ul>
+    <header class="cabesanosotros">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./../index.html"
+            ><div class="text-bg-dark p-3"> <p class="fs-1">GymTiempolibre</div></p></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="#" href="./../index.html"
+                  ><div class="text-bg-dark p-3"><p class="fs-4">Inicio</div></p></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./nosotros.html"
+                  ><div class="text-bg-dark p-3"><p class="fs-4">Nosotros</div></p></a
+                  >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./imagenes.html"
+                  ><div class="text-bg-dark p-3"><p class="fs-4">Imagenes</div></p></a
+                  >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ubicacion.html"
+                  ><div class="text-bg-dark p-3"><p class="fs-4">Ubicación</div></p></a
+                  >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ubicacion.html"
+                  ><div class="text-bg-dark p-3"><p class="fs-4">Contacto</div></p></a
+                  >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
-      <div class="contenedor">
-        <div class="caja1"></div>
-        <div class="caja2"></div>
-        <div class="caja3"></div>
-        <div class="caja4">
-          <p>
-            Nuestro principal objetivo, es hacer de este gimnasio, una familia.
-            Por eso siempre encontraras por parte de nuestro equipo y tambien de
-            nuestros mismos clientes, un apoyo moral, para que hagas de este
-            gimnasio, tu lugar.
-          </p>
+    
+
+    <section class="menunosotros">
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="../imagenes/gymfamilia.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Nuestro principal objetivo, es hacer de este gimnasio, una
+              familia. Por eso siempre encontraras por parte de nuestro equipo y
+              tambien de nuestros mismos clientes, un apoyo moral, para que
+              hagas de este gimnasio, tu lugar.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
         </div>
-        <div class="caja5">
-          <p>
-            Contemos con entrenadores capacitados, para seguir de cerca tus
-            entrenamientos y ayudarte a conseguir el objetivo que te propongas.
-          </p>
+        <div class="card">
+          <img
+            src="../imagenes/perstreiner.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Contemos con entrenadores capacitados, para seguir de cerca tus
+              entrenamientos y ayudarte a conseguir el objetivo que te
+              propongas.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
         </div>
-        <div class="caja6">
-          <p>
-            Encontraras en nuestro gimnasio, un espacio con maquinas renovadas,
-            para llevar a cabo rutinas de intensidad para mujeres.
-          </p>
+        <div class="card">
+          <img src="../imagenes/gymmujer.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Encontraras en nuestro gimnasio, un espacio con maquinas
+              renovadas, para llevar a cabo rutinas de intensidad para mujeres.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
         </div>
       </div>
-    </main>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
