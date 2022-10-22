@@ -320,10 +320,11 @@
   }
   /*pie*/
   .lema {
-    font-size: 22px;
+    font-size: 35px;
+    justify-content: left;
   }
   .seguinos {
-    font-size: 15px;
+    font-size: 20px;
   }
   /*IMAGENES*/
   .fotos {
