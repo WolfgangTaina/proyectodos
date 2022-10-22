@@ -5,35 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GymTiempolibre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
-    <header class="cabesa">
-      <nav class="logotext">
-        <img height="120px" src="./../imagenes/logogym.jpg" alt="logo" />
-        <h1 class="h1"><a href="./../index.html"> Gym Tiempo libre</a></h1>
-      </nav>
-
-      <nav class="barra">
-        <ul class="items">
-          <li class="items__menu"><a href="./../index.html">Inicio</a></li>
-          <li class="items__menu">
-            <a href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="items__menu"><a href="imagenes.html">Imagenes</a></li>
-          <li class="items__menu active"><a href="ubicacion.html">Ubicación</a></li>
-          <li class="items__menu"><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="info">
-        <div class="info1">Ubicación:</div>
-        <div class="info2">Horarios:</div>
-        <div class="info3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.410868085396!2d-64.14361738041389!3d-31.375232650652798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432978e8ec49fcf%3A0x28d55f046ff2488d!2sBalbastro%202318%2C%20X5012%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1666142655581!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <div class="info4"><p>De lunes a viernes de 8 a 12hs y 15 a 21:30hs. Y los sabados de 9:30 a 12:30hs</p></div>
-        </main>
-        <footer class="pie">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./../index.html"
+          ><div class="text-bg-dark p-3"> <p class="fs-1">GymTiempolibre</div></p></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="#" href="./../index.html"
+                ><div class="text-bg-dark p-3"><p class="fs-4">Inicio</div></p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html"
+                ><div class="text-bg-dark p-3"><p class="fs-4">Nosotros</div></p></a
+                >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./imagenes.html"
+                ><div class="text-bg-dark p-3"><p class="fs-4">Imagenes</div></p></a
+                >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./ubicacion.html"
+                ><div class="text-bg-dark p-3"><p class="fs-4">Ubicación</div></p></a
+                >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html"
+                ><div class="text-bg-dark p-3"><p class="fs-4">Contacto</div></p></a
+                >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="menuubicacion"> 
+     <div class="card mb-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.410868085396!2d-64.14361738041389!3d-31.375232650652798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432978e8ec49fcf%3A0x28d55f046ff2488d!2sBalbastro%202318%2C%20X5012%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1666142655581!5m2!1ses-419!2sar" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-body">
+          <h5 class="card-title">Horarios:</h5>
+          <p class="card-text">De lunes a viernes de 8 a 12hs y 15 a 21:30hs. Y los sabados de 9:30 a 12:30hs</p>
+          
+        </div>
+      </div>
+      </main>
+    
+  
+  <footer class="pie">
           <h3 class="lema">Lleva tu cuerpo al próximo nivel</h3>
           <div class="redes">
             <h4>

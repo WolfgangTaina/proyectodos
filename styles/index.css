@@ -20,10 +20,10 @@
   gap: 40px;
   padding: 30px;
   font-size: 40px;
-  color: orangered;
+  color: white;
 }
 .h1 a {
-  color: orangered;
+  color: white;
   text-decoration: none;
 }
 .h1:hover {
@@ -35,7 +35,7 @@
   padding: 40px;
 }
 .items a {
-  color: orangered;
+  color: white;
   list-style-type: none;
   font-size: 20px;
   text-decoration: none;
@@ -57,7 +57,7 @@
   align-items: center;
   font-size: 50px;
   font-style: italic;
-  color: orangered;
+  color: white;
 }
 /**/
 .pie {
@@ -72,7 +72,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: orangered;
+  color: white;
 }
 .redes {
   display: flex;
@@ -81,12 +81,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: orangered;
+  color: white;
 }
 .seguinos {
   text-decoration: none;
   font-style: italic;
-  color: orangered;
+  color: white;
 }
 .seguinos:hover {
   opacity: 0.7;
@@ -142,48 +142,8 @@
 }
 
 /*ubicacion*/
-.info {
-  display: grid;
-  width: 100%;
-  height: 70vh;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 20% 80%;
-  grid-template-areas:
-    "info1 info2"
-    "info3 info4";
-}
-.info1 {
-  grid-area: info1;
-  text-align: center;
-  font-style: italic;
-  font-size: 30px;
-  text-decoration: underline double;
-  padding: 30px;
+.menuubicacion {
   background-color: black;
-  color: white;
-}
-.info2 {
-  grid-area: info2;
-  text-align: center;
-  font-style: italic;
-  font-size: 30px;
-  text-decoration: underline double;
-  padding: 30px;
-  background-color: black;
-  color: white;
-}
-.info3 {
-  grid-area: info3;
-}
-.info4 {
-  grid-area: info4;
-  text-align: center;
-  font-style: italic;
-  font-size: 30px;
-  text-decoration: underline double;
-  padding: 30px;
-  background-color: black;
-  color: white;
 }
 /*contacto*/
 .datos {
@@ -207,7 +167,7 @@
   text-decoration: underline double;
   padding: 30px;
   background-color: black;
-  color: orangered;
+  color: white;
 }
 .dato2 {
   grid-area: dato2;
@@ -217,7 +177,7 @@
   text-decoration: underline;
   padding: 30px;
   background-color: black;
-  color: orangered;
+  color: white;
 }
 .dato3 {
   grid-area: dato3;
@@ -227,7 +187,7 @@
   text-decoration: underline;
   padding: 30px;
   background-color: black;
-  color: orangered;
+  color: white;
 }
 .dato4 {
   grid-area: dato4;
@@ -237,7 +197,7 @@
   text-decoration: underline;
   padding: 30px;
   background-color: black;
-  color: orangered;
+  color: white;
 }
 .dato5 {
   grid-area: dato5;
@@ -246,7 +206,7 @@
   font-size: 30px;
   padding: 30px;
   background-color: black;
-  color: orangered;
+  color: white;
 }
 /*media queries*/
 @media screen and (max-width: 480px) {
